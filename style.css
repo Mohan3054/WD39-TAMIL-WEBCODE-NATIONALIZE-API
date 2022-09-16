@@ -1,0 +1,70 @@
+.container-fluid{
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG90JTIwYWlyJTIwYmFsbG9vbnN8ZW58MHx8MHx8&w=1000&q=80');
+
+}
+.navbar{
+    background-color: rgb(25, 31, 42);
+    border-radius: 3px;
+    height: 70px;
+    font-size: 40px;
+    font-family: Georgia, serif;
+    font-weight: 10px;
+    
+    color: rgb(232, 238, 238);
+   
+}
+
+#input{
+    margin-top: 100px;
+    margin-left: 380px;
+    height: 68px;
+    width: 300px;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: -5px -5px 12px rgba(243, 180, 180, 0.667),
+                 5px  5px  12px #323236;
+}
+
+#button{
+    margin-top: 110px;
+    height: 48px;
+    margin-left: 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(221, 25, 25);
+}
+#button:hover{
+    background-color: rgb(60, 112, 8);
+}
+#button:active{
+    background-color: rgb(94, 238, 154);
+}
+.result{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #5280c5, #706db5, #85599e, #924480, #95315f);
+    width: 360px;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-header{
+    background-image: linear-gradient(to right, #c17100, #aaae00, #12eb20);
+    font-size: 30px;
+    color: rgb(21, 26, 24);
+
+}
+
+
+
+
